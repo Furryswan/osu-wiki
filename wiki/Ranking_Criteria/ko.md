@@ -1,66 +1,67 @@
-# Ranking criteria
+#Ranking criteria(랭크 기준)
 
-*For mode specific criteria, see: [osu!](/wiki/rc_osu!), [osu!taiko](/wiki/rc_osu!taiko), [osu!catch](/wiki/rc_osu!catch), and [osu!mania](/wiki/rc_osu!mania)*
+*모드별 랭크 기준을 보고 싶으시다면 : [osu!](/wiki/rc_osu!), [osu!taiko](/wiki/rc_osu!taiko), [osu!catch](/wiki/rc_osu!catch), [osu!mania](/wiki/rc_osu!mania) 를 참조해주십시오.*
 
-For the record, these include the recent changes made [from the discussion forum](https://osu.ppy.sh/community/forums/87). Any rule that is being discussed is listed here as it used to be and will be updated once the discussion reaches an agreement.
+현재 논의중에 있는 규칙은 [토론 포럼(Discussion forum)](https://osu.ppy.sh/community/forums/87)에서 논의되고 있으며, 해당 토론이 합의에 도달한 경우에 변경사항이 이곳에 갱신됩니다.
 
-**Keep in mind that the [Code of Conduct](/wiki/Code_of_Conduct), the guide on [Timing Songs With #/8th-Signatures](/wiki/Ranking_Criteria/Timing_Songs_With_8-Signatures) as well as the [Song Content Rules](/wiki/Ranking_Criteria/Song_Content_Rules) are part of the Ranking Criteria and apply to all existent game modes in osu!.**
+**[Code of Conduct(행동강령)](/wiki/Code_of_Conduct), [Timing Songs With #/8th-Signatures(#8박자 용법을 활용하여 노래의 타이밍을 잡는법)](/wiki/Ranking_Criteria/Timing_Songs_With_8-Signatures), [Song Content Rules(노래 컨텐츠 규칙)](/wiki/Ranking_Criteria/Song_Content_Rules) 또한 osu!의 모든 게임모드에 적용된다는것을 명심하십시오.**
 
-## Glossary
+##Glossary(용어 사전)
 
-### General terms
+###General terms(일반 용어)
 
-- **Rules:** All rules are exactly that: **rules**. They are **not** guidelines and may **not** be broken under **any** circumstance.
-- **Guidelines:** Guidelines may be ignored under **exceptional** circumstances. These exceptional circumstances must be justified by an exhaustive explanation as of why the guideline has been ignored and why not ignoring it will interfere with the overall quality of the creation.
+- **Rules(규칙):** 모든 규칙들은 문자 그대로 **규칙입니다**. 이것들은 가이드라인이 **아니며**, **어떠한** 상황에서도 어기실 수 **없습니다**.
+- **Guidelines(가이드라인):** 가이드라인은 특별히 **예외적인** 상황에서라면 어기실 수 있습니다. 이러한 예외적인 상황은, 왜 가이드 라인을 무시하는것이 퀄리티에 더 좋은 영향을 주는지 자세히 설명되어야 합니다.
 
-## General
+## General(일반적인 것)
 
-### Rules
+### Rules(규칙)
 
-- **No two hit objects can be placed on the same tick.** This includes hit circles and the durations of sliders and spinners. osu!mania beatmaps are exempt from this.
-- **There must not be any obscene imagery in the background/storyboard/video content.** This includes nudity, near-nudity, sexual references, violence, drug abuse, etc. See [Visual Content Considerations](/wiki/Rules/Visual_Content_Considerations) for more detailed rules.
-- **Beatmaps that contain repetitive strobes, pulsing images, or rapid changes in contrast, brightness or colour in the storyboard or video must use an epilepsy warning.** If the warning interferes with gameplay, audio lead-in must be made longer. Strobing effects at 3 Hz and below are unlikely to cause concern. When in doubt, add the warning and confirm its necessity during the modding process.
-- **There must not be any unused files or 0-byte files in the beatmap's folder.** 0-byte files prevent other files in a beatmap's folder from properly uploading. Automatically generated `thumbs.db` files are the only exceptions.
-- **Do not edit the `.osu` file to modify difficulty settings or insert break times in ways that are unintended for each respective game mode.** Other `.osu` file edits such as stack leniency, slider velocity, and skinning settings are acceptable.
-- **The `Letterbox during breaks` setting must be consistent between difficulties of the same mode if they contain break periods and if included, the same storyboard.**
+- **어떠한 히트 오브젝트도 같은 틱에 2개 이상 놓일수 없습니다.** 이것은 히트 서클, 슬라이더의 시작지점과 끝나는 지점, 스피너가 시작하는 지점과 끝나는 지점에도 포함되는 규칙입니다. osu!mania 모드의 비트맵은 예외입니다.
+- **배경/스토리보드/비디오 컨텐츠에는 음란한 이미지가 없어야 합니다.** 여기에는 나체, 준-나체, 성적 언급, 폭력, 약물 남용등이 포함됩니다. 이에 관해서 더 자세한 규칙을 알고 싶으시다면 [Visual Content Considerations(시각적 콘텐츠 고려 사항)](/wiki/Rules/Visual_Content_Considerations) 을 참조하십시오.
+- **스토리보드 또는 비디오에 반복적인 반짝임, 요동치는 이미지, 대비/밝기/색상의 급격한 변화가 있을 경우, 해당 비트맵에는 (Epilepsy warning)간질경고를 사용해야 합니다.** 해당 경고가 게임플레이를 방해할 경우, Audio lead-in(오디오 리드-인)을 더 길게 만들어야 합니다. 3Hz 이하의 스트로빙 효과는 문제를 일으킬 가능성이 없습니다. 확실하지 않은 경우에는 간질경고를 추가하고 모딩중에 해당 경고가 필요한지 확인해 주십시오.
+- **비트맵에 사용되지 않은 파일이나 0 바이트 용량인 파일이 있어서는 안됩니다..** 0 바이트 파일은 비트 맵 폴더의 다른 파일이 제대로 업로드되지 못하게하기 때문입니다. 자동적으로 생성된 `thumbs.db` 파일만이 유일한 예외입니다.
+- **각 게임 모드에 의도하지 않은 방식으로 난이도 설정을 수정하거나 브레이크 타임을 삽입하기 위해 `osu` 파일을 편집하지 마십시오.** Stack leniency(스택 리니언시), 슬라이더 속도 및 스킨 설정과 같은 다른 `osu`파일 편집은 허용됩니다.
+- `Letterbox during breaks(브레이크 타임간 레터박스)` **는 브레이크 타임과 스토리보드와 게임 모드가 같은 다른 난이도들 사이에서 일관성있게 사용되어야 합니다.**
 
-### Guidelines
+### Guidelines(가이드라인)
 
-- **Directly re-using your own Ranked beatmaps in other Ranked beatmaps is discouraged.** This is to avoid unnecessary bloating of Ranked content.
-- **Slider tick rate should not be modified through the `.osu` file.** Most custom values result in unsnapped slider ticks, however tick rates 0.5, 1.333, and 1.5 have practical use and can be applied only when they do not cause slider ticks to be unsnapped.
-- **Kiai should start on a sound in the music.** Doing so otherwise causes the kiai flash to feel unrelated to the song.
-- **The `Enable countdown` setting should be consistent between difficulties of the same mode.** If a difficulty does not have a long enough intro period for the countdown to occur, this setting does not need to be consistent.
+- **다른 랭크맵에 자신의 랭크맵을 직접 재사용하는 것은 권장하지 않습니다.** 이것은 이미 랭크된 컨텐츠의 불필요한 확산을 방지하기 위함입니다.
+- **Slider tick rate(슬라이더 틱 레이트)는 `.osu` 파일을 통해 수정하실수 없습니다.** 사용자가 직접 수정하는 경우 대부분의 사용자 정의 값은 스냅되지 않은 슬라이더 틱을 초래하지만, 슬라이더 틱 속도 0.5, 1.333 및 1.5는 실용적으로 사용되며 표준 슬라이더 틱보다 더 적절하게 곡을 표현할 수 있는 경우에만 적용하실수 있습니다.
+- **Kiai(키아이)는 노래소리가 들리는곳에서 시작되어야 합니다.** 이렇게 하지 않으면 kiai의 플래시가 노래와 무관하다고 여겨질수 있기 때문입니다.
+- `카운트 다운 활성화` **설정은 같은 모드의 다른 난이도들 사이에서 일관성있게 사용되어야 합니다.** 난이도가 카운트다운이 들어갈정도로 충분한 길이의 인트로를 가지고 있지 않은경우, 이 설정은 일관성이 지켜질 필요가 없게 됩니다.
 
-## Beatmapset
+## Beatmapset(비트맵 셋)
 
-### Glossary
+### Glossary(용어 해설)
 
-- **Drain time:** The time during which the health-bar drains. Excludes break periods. osu!taiko's drain time includes sliders and the intended length of spinners.
-- **Song compilation:** An audio file that features multiple different songs or sections of songs.
-- **Play time**: The time during which the health-bar drains combined with break periods.
-- **Reasonable spread:** A beatmapset that does not skip any difficulty levels as dictated by difficulty-specific rules and guidelines, and does not have any drastically large differences between difficulties. This includes beatmapsets that feature only a single difficulty.
-- **Game mode:** osu!, osu!taiko, osu!catch, and each of osu!mania's key counts are considered individual game modes.
-- **Beatmapset host:** A user who uploads and manages a beatmapset.
-- **Guest difficulty:** A difficulty added to a beatmapset which is not created by its beatmapset host.
-- **Collaborative difficulty:** A single difficulty beatmapped by more than one creator. Also referred to as "collab".
+- **Drain time(드레인 타임):** 체력바가 작동된 시간을 말합니다. 브레이크 타임의 시간은 드레인 타임에서 제외됩니다. osu!taiko'모드의 드레인 타임은 슬라이더와 스피너의 최대 길이 또한 포함합니다.
+- **Song compilation(음악 모음집):** 음악의 특정 부분만을 모아두었거나 여러 곡의 구간을 하나의 오디오 파일로 모아둔것입니다.
+- **Play time(플레이 타임)**: 브레이크 타임의 시간과 체력바가 작동된 시간을 합친 길이입니다.
+- **Reasonable spread(합리적 스프레드):** Difficulty-specific rules and guidelines(난이도별 규칙과 가이드라인)에 따라 난이도 레벨을 건너 뛰지 않고 난이도간에 크게 큰 차이가없는 비트맵 셋을 말합니다. 여기에는 난이도가 하나만 존재하는 단일 난이도 비트맵 셋 또한 포함됩니다. 
+- **Game mode(게임 모드):** osu!, osu!taiko, osu!catch, osu!mania 의 키 카운트는 각각 다른 게임 모드로 간주합니다.
+- **Beatmapset host(비트맵 셋 호스트):** 비트맵 셋을 업로드하고 관리하는 유저를 말합니다.
+- **Guest difficulty(게스트 난이도):** 비트맵 셋 주인이 만들지 않고 다른 유저가 참여해 만든 난이도를 말합니다.
+- **Collaborative difficulty(콜라보 난이도):** 하나의 난이도에 여러명의 제작자가 참여한 난이도. "collab"(콜랍)이라고도 부릅니다.
 
-### Rules
+### Rules(규칙)
 
-- **All game modes within a beatmapset must form a reasonable spread starting from the lowest difficulty level required for the song's length.** Each spread must comply with its respective mode's difficulty-specific Ranking Criteria.
-- **Every difficulty of a beatmapset must have a minimum drain time of 30 seconds.**
-- **If the drain time of each difficulty is...**
-  - **...lower than 3:30, the lowest difficulty of each included game mode cannot be harder than a Normal.**
-  - **...between 3:30 and 4:15, the lowest difficulty of each included game mode cannot be harder than a Hard.**
-  - **...between 4:15 and 5:00, the lowest difficulty of each included game mode cannot be harder than an Insane.**
-  - **...anything higher, the beatmapset is exempt from reasonable spread rules.**
-  - **Difficulties lower than the highest difficulty can use their play time as a metric instead of drain time.** This does not apply to difficulties with less than 30 seconds of drain time. Judgement regarding the suitability of gameplay elements used for any lowest difficulty Hard and Insane difficulties is up to the Beatmap Nominators and Nomination Assessment Team members for the corresponding game modes.
-- **Difficulty names in a set must be clearly progressive and accurately indicating of their respective difficulties, excluding:**
-  - The highest difficulty.
-  - The highest difficulties with a similar level of difficulty, applying only to Insane and Extra difficulties (e.g. the Insane difficulties of a ENHIIII set or the Extra difficulties of a ENHIIXXX set).
-- **A beatmapset's custom difficulty naming must follow a common theme or pattern related to the song or difficulty and must not be misrepresentative.** A difficulty name is misrepresentative if it implies a different difficulty level (e.g. naming an "Expert" difficulty as "Normal").
-- **A difficulty's name must not solely consist of one or more usernames.** Words that happen to be usernames are acceptable within difficulty names as long as they relate to the song.
-- **A beatmapset host cannot indicate possession in a difficulty's name.** (e.g. Beatmapset Host's Insane). Conflicts caused by beatmapping multiple songs with the same metadata and collaborative difficulties are the only exceptions. Guest difficulties, however, may indicate possession with its creators' username or nickname.
-- **A beatmapset host must have beatmapped equal or more difficulties than any guest difficulty beatmap creator.** This is to provide credit where credit is due. Collab difficulties are only considered partial difficulties, and drain time will be used to determine the amount of contribution when a guest has beatmapped significantly more than the host.
+- **비트맵 셋 내의 모든 게임 모드는 노래의 길이에 따라 필요한 가장 낮은 난이도 레벨에서 시작하여 합리적인 스프레드를 형성해야합니다. ** 각 스프레드는 해당 게임 모드의 난이도 별 랭크 기준을 준수해야합니다.
+- **비트맵 세트의 모든 난이도는 최소한 30초의 드레인 타임을 가져야 합니다.**
+- **만약 각 난이도의 드레인 타임이...**
+  - **...3분 30초 미만인 경우, 각 게임 모드의 가장 낮은 난이도는 Normal보다 어려워서는 안됩니다.**
+  - **...3분 30초 이상 ~ 4분 15초 미만인 경우, 각 게임 모드의 가장 낮은 난이도는 Hard보다 어려워서는 안됩니다.**
+  - **...4분 15초 이상 ~ 5분 00초 미만인 경우, 각 게임 모드의 가장 낮은 난이도는 Insane보다 어려워서는 안됩니다.**
+  - **...그 이상의 드레인 타임을 가진 경우, 해당 비트맵 셋은 합리적 스프레드 규칙에 영향을 받지 않습니다.**
+  - **가장 높은 난이도보다 낮은 난이도들은 드레인 타임 대신에 플레이 타임을 측정 기준으로 사용할수 있습니다.** 단, 이것은 드레인타임이 30초보다 적은 난이도에는 적용되지 않습니다. 가장 낮은 난이도부터 가장 높은 난이도까지 사용되는 게임 플레이 요소의 적합성에 대한 판단은 해당 게임 모드의 Beatmap Nominators와 Nomination Assessment Team 구성원이 판단합니다.
+- **비트맵 셋의 난이도는 다음을 제외하고 각각의 난이도를 명확하고 정확하게 표시되어야 합니다. :**
+  - 가장 높은 난이도
+  - 가장 높은 난이도와 비슷한 난이도의 경우, Insane 및 Extra 난이도에만 적용됩니다. (예시: ENHIIII 세트의 Insane 난이도 또는 ENHIIXXX 세트의 Extra 난이도)
+- **비트맵셋의 사용자 지정 난이도는 노래나 난이도에 관련된 일반적인 주제나 패턴을 따라야 하며, 잘못 해석되어서는 안됩니다.** (예시: "Expert" 수준의 어려움을 가진 난이도를 "Normal" 난이도로 명명함.)
+**난이도명은 유저 이름으로 명명될수 없습니다.** 우연히 유저 이름이 노래와 관련되어 있다면 예외로 받아들여질수 있습니다. 
+- **비트맵 셋의 호스트의 이름은 난이도명에 포함될 수 없습니다. (예시: 비트맵 셋 호스트 이름's Insane).** 다수의 곡을 닉네임과 동일한 메타데이터로 비트맵화하여 생기거나 콜라보 난이도만이 유일한 예외가 될 수 있습니다. 그러나, 게스트 난이도는 해당 창작자의 사용자 이름이나 유저명으로 난이도 명을 지을수 있습니다.
+
+- **비트맵셋의 주인은 게스트 난이도보다 동일하거나 더 많은 수량의 난이도를 만들어야 합니다.** 이것은 신용이 있어야 할 곳에 신용을 제공하기 위함입니다. 콜라보 난이도는 부분적인것으로 간주되며, 게스트 매퍼가 비트맵셋 호스트보다 더 많은 양을 매핑한경우, 드레인 타임이 비트맵 공헌도를 계산하는데 사용됩니다.
 - **A beatmapset host and guest beatmap creators can make changes to their respective difficulties as they wish.** If there is a disagreement between both, the beatmapset host must delete the guest contribution upon request. If a guest beatmap creator cannot be contacted for a month, they will be assumed to agree with any changes.
 
 ### Guidelines
